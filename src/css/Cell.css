@@ -1,0 +1,25 @@
+.cell{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.cell:hover{
+    border: 2px solid black;
+}
+
+.died{
+    background-color: white;
+}
+
+.color-0 { background-color: #0000FF; } /* Alive (Blue) */
+.color-1 { background-color: #1E0F8F; } /* Iteration 1 */
+.color-2 { background-color: #3C1F7F; } /* Iteration 2 */
+.color-3 { background-color: #5A2F6F; } /* Iteration 3 */
+.color-4 { background-color: #783F5F; } /* Iteration 4 */
+.color-5 { background-color: #964F4F; } /* Iteration 5 */
+.color-6 { background-color: #B45F3F; } /* Iteration 6 */
+.color-7 { background-color: #D26F2F; } /* Iteration 7 */
+.color-8 { background-color: #F07F1F; } /* Iteration 8 */
+.color-9 { background-color: #FF0000; } /* Dead 9 */
+.color-10 { background-color: #FF0000; } /* Dead 10+ (Red) */

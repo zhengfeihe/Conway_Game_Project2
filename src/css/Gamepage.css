@@ -1,0 +1,78 @@
+.GridRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    margin: 15px 0 0 0;
+    color: #0056b3;
+    text-align: center;
+}
+
+.grid{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.UserInput {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0.5em 2em 0.5em;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.UserInput input[type="text"] {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+}
+
+
+h3 {
+    color: #ff0000;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.ControlOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: solid 2px black;
+    background-color: blue; /* Sets a primary color for buttons */
+    color: white; /* Text color for buttons */
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px; /* Rounds the corners of the buttons */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003580;
+    transform: translateY(2px);
+}
+
+
+
